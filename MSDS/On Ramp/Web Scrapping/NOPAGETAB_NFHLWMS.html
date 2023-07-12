@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta name="keywords" content="Federal Emergency Management Agency, FEMA, Map Modernization, floods, flood hazard maps, hazards, maps, mapping, GIS data, Geospatial Information Systems, National Flood Insurance Program, NFIP, floodplains, Digital Flood Insurance Rate Map, DFIRM, emergency response, disaster prevention, risk management, engineering tools, funding" />
+<meta name="Robots" content="index,follow" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<!-- rel=dynamic-content indicates an element that is replaced with the contents produced by the specified href. 
+	 dyn-cs:* URIs are resolved using the values within the 'wp_dynamicContentSpots_85' theme module. -->
+<link rel="stylesheet" href="/femaportal/wps/contenthandler/!ut/p/digest!OFDFfhPHsZwvGO-EVRA2Gw/sp/mashup:ra:collection?soffset=0&amp;eoffset=16&amp;themeID=ZJ_LPHGHOK0O0KV80QKQLJ6KR10K7&amp;locale=en&amp;mime-type=text%2Fcss&amp;lm=1566686347973&amp;entry=wp_toolbar_common__0.0%3Ahead_css&amp;entry=wp_dialog_css__0.0%3Ahead_css&amp;entry=wp_toolbar_logo__0.0%3Ahead_css&amp;entry=wp_theme_portal_edit_85__0.0%3Ahead_css&amp;entry=wp_theme_portal_85__0.0%3Ahead_css&amp;entry=wp_portlet_css__0.0%3Ahead_css&amp;entry=wp_toolbar_common_actionbar__0.0%3Ahead_css&amp;entry=wp_simple_contextmenu_css__0.0%3Ahead_css&amp;entry=wp_toolbar_actionbar__0.0%3Ahead_css&amp;entry=wp_ic4_wai_resources__0.0%3Ahead_css&amp;entry=wp_toolbar_sitepreview__0.0%3Ahead_css&amp;entry=wp_toolbar_moremenu__0.0%3Ahead_css&amp;entry=wp_status_bar__0.0%3Ahead_css&amp;entry=wp_toolbar_projectmenu__0.0%3Ahead_css&amp;entry=wp_oob_sample_styles__0.0%3Ahead_css" type="text/css"/><link rel="alternate" id="head_css_deferred" href="/femaportal/wps/contenthandler/!ut/p/digest!OFDFfhPHsZwvGO-EVRA2Gw/sp/mashup:ra:collection?soffset=0&amp;eoffset=6&amp;themeID=ZJ_LPHGHOK0O0KV80QKQLJ6KR10K7&amp;locale=en&amp;mime-type=text%2Fcss&amp;lm=1554148060000&amp;entry=wp_contextmenu_css__0.0%3Ahead_css&amp;entry=wp_federated_documents_picker__0.0%3Ahead_css&amp;entry=wp_dnd_css__0.0%3Ahead_css&amp;entry=wcm_inplaceEdit__0.0%3Ahead_css&amp;entry=wp_content_targeting_cam__0.0%3Ahead_css&amp;deferred=true"/><script type="text/javascript">var djConfig={"baseUrl":"/wps/portal_dojo/v1.9/dojo/","locale":"en","isDebug":false,"debugAtAllCosts":false,"parseOnLoad":false,"afterOnLoad":false,"has":{"dojo-bidi":true},"modulePaths":{"com":"/wps/themeModules/js/com","ibm":"/wps/themeModules/js/ibm","pagebuilder":"/wps/themeModules/modules/pagebuilder/js","portalclient":"/wps/themeModules/modules/portalclient/js","asa":"/wps/themeModules/modules/asa/js","contentmapping":"/wps/themeModules/modules/contentmapping/js","federation":"/wps/themeModules/modules/federation/js"}};djConfig.locale=djConfig.locale.replace(/_/g, "-").replace(/iw/, "he").toLowerCase();(function(){if (typeof(wpModules) == 'undefined') wpModules = {}; if (typeof(wpModules.state) == 'undefined') wpModules.state = {}; if (typeof(wpModules.state.page) == 'undefined') wpModules.state.page = {};wpModules.state.page._initial=[{"nsuri":"http://www.ibm.com/xmlns/prod/websphere/portal/publicparams","name":"selection","value":["Z6_JGD6HAK0PGJ9E0Q6TVUJUN10G4"]},{"nsuri":"http://www.ibm.com/xmlns/prod/websphere/portal/publicparams","name":"labelMappings","value":["Z6_LPHGHOK0O8Q520QCL9INR91047","Z6_JGD6HAK0PGJ9E0Q6TVUJUN10G4","Z6_LPHGHOK0O0O9E0Q431PS5A20Q3","Z6_JGD6HAK0PGJ9E0Q6TVUJUN10G4","Z6_000000000000000000000000A0","Z6_JGD6HAK0PGJ9E0Q6TVUJUN10G4","Z6_JGD6HAK0PGJ9E0Q6TVUJUN10G4","Z6_000000000000000000000000A0"]},{"nsuri":"http://www.ibm.com/xmlns/prod/websphere/portal/publicparams","name":"expansions","value":["Z6_000000000000000000000000A0","Z6_LPHGHOK0O0O9E0Q431PS5A20Q3","Z6_LPHGHOK0O8Q520QCL9INR91047"]}];wpModules.state.page.selectionPath=['Z6_000000000000000000000000A0','Z6_LPHGHOK0O0O9E0Q431PS5A20Q3','Z6_LPHGHOK0O8Q520QCL9INR91047','Z6_JGD6HAK0PGJ9E0Q6TVUJUN10G4'];wpModules.state.page.supportsEditMode=true;wpModules.state.page.supportsToolbar=true;wpModules.state.page.path='/wps/portal';wpModules.state.page.protectedPath='/wps/myportal';wpModules.state.page.publicPath='/wps/portal';})();</script><script type="text/javascript" src="/femaportal/wps/contenthandler/!ut/p/digest!OFDFfhPHsZwvGO-EVRA2Gw/mashup/ra:collection?themeID=ZJ_LPHGHOK0O0KV80QKQLJ6KR10K7&amp;locale=en&amp;mime-type=text%2Fjavascript&amp;lm=1554148060000&amp;entry=wp_client_main__0.0%3Ahead_js&amp;entry=wp_client_ext__0.0%3Ahead_js&amp;entry=wp_client_logging__0.0%3Ahead_js&amp;entry=wp_client_tracing__0.0%3Ahead_js&amp;entry=wp_modules__0.0%3Ahead_js&amp;entry=wp_photon_dom__0.0%3Ahead_js&amp;entry=wp_toolbar_common__0.0%3Ahead_js&amp;entry=wp_dialog_util__0.0%3Ahead_js&amp;entry=wp_dialog_draggable__0.0%3Ahead_js&amp;entry=wp_dialog_main__0.0%3Ahead_js&amp;entry=wp_a11y__0.0%3Ahead_js&amp;entry=wp_state_page__0.0%3Ahead_js&amp;entry=wp_theme_portal_85__0.0%3Ahead_js&amp;entry=wp_theme_utils__0.0%3Ahead_js&amp;entry=wp_toolbar_viewframe_validator__0.0%3Ahead_js&amp;entry=wp_analytics_aggregator__0.0%3Ahead_js"></script><link rel="alternate" id="head_js_deferred" href="/femaportal/wps/contenthandler/!ut/p/digest!AVpjyN-eMXoHdj8JKNHpMA/mashup/ra:collection?themeID=ZJ_LPHGHOK0O0KV80QKQLJ6KR10K7&amp;locale=en&amp;mime-type=text%2Fjavascript&amp;lm=1512156768000&amp;entry=dojo_19__0.0%3Ahead_js&amp;entry=dojo_app_19__0.0%3Ahead_js&amp;entry=dojo_fx_19__0.0%3Ahead_js&amp;entry=dojo_dom_19__0.0%3Ahead_js&amp;entry=dojo_dnd_basic_19__0.0%3Ahead_js&amp;entry=dojo_data_19__0.0%3Ahead_js&amp;entry=dojo_selector_lite_19__0.0%3Ahead_js&amp;entry=dijit_19__0.0%3Ahead_js&amp;entry=dojo_dnd_ext_19__0.0%3Ahead_js&amp;entry=dijit_layout_basic_19__0.0%3Ahead_js&amp;entry=dojox_layout_basic_19__0.0%3Ahead_js&amp;entry=dijit_menu_19__0.0%3Ahead_js&amp;entry=dojo_fmt_19__0.0%3Ahead_js&amp;entry=dijit_tree_19__0.0%3Ahead_js&amp;entry=wp_dnd_namespace__0.0%3Ahead_js&amp;entry=wp_dnd_source__0.0%3Ahead_js&amp;entry=dijit_layout_ext_19__0.0%3Ahead_js&amp;entry=dijit_form_19__0.0%3Ahead_js&amp;entry=wp_client_selector__0.0%3Ahead_js&amp;entry=wp_client_dnd__0.0%3Ahead_js&amp;entry=wp_contextmenu_js__0.0%3Ahead_js&amp;entry=wp_dnd_target__0.0%3Ahead_js&amp;entry=wp_dnd_util__0.0%3Ahead_js&amp;entry=wcm_inplaceEdit__0.0%3Ahead_js&amp;deferred=true"/><link id="YqbV:Hl4si3" rel="alternate" href="https://hazards.fema.gov/femaportal/wps/portal/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zivdxdzDwcvQ0C3L0sXQ0CzULCQr1C_QwN3E30w8EKfAI83D38vQ38LQJNjQwCnX0sPf2CLA0NTMz1o0jSb-APUmBibBgQbOoINMmYOP0GOICjAXH68SiIwm98uH4UWAm-EEBVgMWLhCwpyA0NDY0wyPR0VFQEAGWBPHc!/"><script type="text/javascript">(function() {
+	var element = document.getElementById("YqbV:Hl4si3");
+	if (element) {
+		wpModules.theme.WindowUtils.baseURL.resolve(element.href);
+	}
+}());</script><style id="layout-wstate-styles"></style>
+<meta name="Description" content=NOPAGETAB_NFHLWMS />
+
+
+<title>NOPAGETAB_NFHLWMS</title>
+
+
+<link id="com.ibm.lotus.NavStateUrl" rel="alternate" href="/femaportal/wps/portal/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zivdxdzDwcvQ0C3L0sXQ0CzULCQr1C_QwN3E30w8EKfAI83D38vQ38LQJNjQwCnX0sPf2CLA0NTMz1o0jSb-APUmBibBgQbOoINMmYOP0GOICjAXH68SiIwm98uH4UWAm-EEBVgMWLhCwpyA0NDY0wyPR0VFQEAGWBPHc!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2X0pHRDZIQUswUEdKOUUwUTZUVlVKVU4xMEc0/" />
+
+
+<link href="/femaportal/wps/contenthandler/!ut/p/digest!AVpjyN-eMXoHdj8JKNHpMA/war/mipPortal85ThemeStatic/themes/mipPortal85Theme/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+
+	<link rel="stylesheet" type="text/css" href="/femaportal/wps/contenthandler/!ut/p/digest!AVpjyN-eMXoHdj8JKNHpMA/war/mipPortal85ThemeStatic/themes/mipPortal85Theme/MIP/styles/portal.css"  />
+	<link rel="stylesheet" type="text/css" href="/femaportal/wps/contenthandler/!ut/p/digest!AVpjyN-eMXoHdj8JKNHpMA/war/mipPortal85ThemeStatic/themes/mipPortal85Theme/MIP/styles/portlets.css" />
+	<link rel="stylesheet" type="text/css" href="/femaportal/wps/contenthandler/!ut/p/digest!AVpjyN-eMXoHdj8JKNHpMA/war/mipPortal85ThemeStatic/themes/mipPortal85Theme/MIP/styles/datepicker.css" />
+	<link rel="stylesheet" type="text/css" href="/femaportal/wps/contenthandler/!ut/p/digest!AVpjyN-eMXoHdj8JKNHpMA/war/mipPortal85ThemeStatic/themes/mipPortal85Theme/MIP/styles/dfirm.css" />
+    <link rel="stylesheet" type="text/css" href="/femaportal/wps/contenthandler/!ut/p/digest!AVpjyN-eMXoHdj8JKNHpMA/war/mipPortal85ThemeStatic/themes/mipPortal85Theme/MIP/styles/help.css" />
+	<link rel="stylesheet" type="text/css" href="/femaportal/wps/contenthandler/!ut/p/digest!AVpjyN-eMXoHdj8JKNHpMA/war/mipPortal85ThemeStatic/themes/mipPortal85Theme/MIP/styles/homepage.css" />
+	<link rel="stylesheet" type="text/css" href="/femaportal/wps/contenthandler/!ut/p/digest!AVpjyN-eMXoHdj8JKNHpMA/war/mipPortal85ThemeStatic/themes/mipPortal85Theme/MIP/styles/staticrules.css" />
+	<link rel="stylesheet" type="text/css" href="/femaportal/wps/contenthandler/!ut/p/digest!AVpjyN-eMXoHdj8JKNHpMA/war/mipPortal85ThemeStatic/themes/mipPortal85Theme/MIP/styles/tree.css" />
+	<link rel="stylesheet" type="text/css" href="/femaportal/wps/contenthandler/!ut/p/digest!AVpjyN-eMXoHdj8JKNHpMA/war/mipPortal85ThemeStatic/themes/mipPortal85Theme/MIP/styles/workitem.css" />
+<!-- rendering is delegated to the specified href for each locale -->
+
+</head>
+<body onload="defaultOnLoad();">
+  <div id="allcontent"><div id="widthstretch">
+                <a href="#top"></a>
+                <script type="text/javascript"><!--
+                        function defaultOnLoad() {
+                        }
+                        -->
+                </script>
+                <!-- Section to update default -->
+                <noscript>
+                        This page has Javascript disabled.  This site works best with Javascript enabled.
+                </noscript>
+
+	<div class="wpthemeFrame">
+		
+		<header role="banner" tabindex="-1" aria-label="Main header">
+
+	<!-- JC: mip banner -->
+	 
+<div id="masthead">
+	<h1 id="logosite">
+	
+	  <a href='/femaportal/wps/portal/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zivdxdzDwcvQ0C3L0sXQ0CzULCQr1C_QwN3E30w8EKfAI83D38vQ38LQJNjQwCnX0sPf2CLA0NTMz1o0jSb-APUmBibBgQbOoINMmYOP0GOICjAXH68SiIwm98uH4UWAm-EEBVgMWLhCwpyA0NDY0wyPR0VFQEAGWBPHc!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2X0xQSEdIT0swTzhBNEQwUUNDVEpVTkUxMEc2/'>
+		<img src="/femaportal/wps/contenthandler/!ut/p/digest!AVpjyN-eMXoHdj8JKNHpMA/war/mipPortal85ThemeStatic/themes/mipPortal85Theme/MIP/images/logo_site.png" alt='Mapping Information Platform' width="279" height="68" />
+	  </a>
+	
+	</h1>
+	<div id="logofema"><a href="https://fema.gov/"><img src="/femaportal/wps/contenthandler/!ut/p/digest!AVpjyN-eMXoHdj8JKNHpMA/war/mipPortal85ThemeStatic/themes/mipPortal85Theme/MIP/images/logofema.png" alt='Federal Emergency Management Agency' /></a></div>
+
+<div id="login-banner">
+	
+				<a href='/femaportal/wps/portal/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zivdxdzDwcvQ0C3L0sXQ0CzULCQr1C_QwN3E30w8EKfAI83D38vQ38LQJNjQwCnX0sPf2CLA0NTMz1o0jSb-APUmBibBgQbOoINMmYOP0GOICjAXH68SiIwm98uH4UWAm-EEBVgMWLhCwpyA0NDY0wyPR0VFQEAGWBPHc!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2X0xQSEdIT0swT0c1UzMwUUtIMFM0QTQzMDA1/'>
+					Log In&nbsp;|&nbsp;
+				</a>
+			
+		<a href='/femaportal/wps/portal/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zivdxdzDwcvQ0C3L0sXQ0CzULCQr1C_QwN3E30w8EKfAI83D38vQ38LQJNjQwCnX0sPf2CLA0NTMz1o0jSb-APUmBibBgQbOoINMmYOP0GOICjAXH68SiIwm98uH4UWAm-EEBVgMWLhCwpyA0NDY0wyPR0VFQEAGWBPHc!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2X0xQSEdIT0swTzBGUzkwUUMzRDNRTTUzMDg0/'>Need an Account?</a>&nbsp;|&nbsp;
+	<a href="/femaportal/wps/portal/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zivdxdzDwcvQ0C3L0sXQ0CzULCQr1C_QwN3E30w8EKfAI83D38vQ38LQJNjQwCnX0sPf2CLA0NTMz1o0jSb-APUmBibBgQbOoINMmYOP0GOICjAXH68SiIwm98uH4UWAm-EEBVgMWLhCwpyA0NDY0wyPR0VFQEAGWBPHc!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2X0xQSEdIT0swTzBGUzkwUUMzRDNRTTUzMDYw/">FEMA Dictionary</a>
+	&nbsp;|&nbsp;
+        <a href="/femaportal/wps/portal/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zivdxdzDwcvQ0C3L0sXQ0CzULCQr1C_QwN3E30w8EKfAI83D38vQ38LQJNjQwCnX0sPf2CLA0NTMz1o0jSb-APUmBibBgQbOoINMmYOP0GOICjAXH68SiIwm98uH4UWAm-EEBVgMWLhCwpyA0NDY0wyPR0VFQEAGWBPHc!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2X0xQSEdIT0swT09DVkEwUUMzTDlHOE4yMDAw/">MIP Help?</a>
+</div>
+
+</div>
+
+
+
+<!-- JC: include MIPNotices.jsp -->
+	 
+
+<iframe id="session-iframe" style="display:none" src="javascript:false;">Your browser does not support iframe</iframe>
+<iframe id="server-iframe" style="display:none" src="javascript:false;">Your browser does not support iframe</iframe>
+<span  class="session-tracker" id="sessionTracker" style="display:none">
+	<h2>MIP Session Notice</h2>
+	Your current session will expire in approximately <span id="g_minsDisplay">10 minutes</span>. Click "OK" to resume your session.<br>
+	<input type="button" value="OK" 
+	onclick="javascript:extendSession();"/>
+</span>
+<span class="session-tracker" id="sessionExpired" style="display:none">
+	<h2>MIP Session Notice</h2>
+    Your session has expired. <br>
+    <input type="button" value="OK" 
+	onclick="javascript:closeSessionExpired();"/>
+</span>
+<span  class="session-tracker server-shutdown" id="serverTracker" style="display:none">
+	<h2>MIP Server Notice</h2>
+	The MIP connection that you have been assigned will restart in <span id="g_sd_minsDisplay"></span>.  The connection restart will terminate your current session.  Please save your data, log off, and close your browser.  Data not saved prior to this restart will be lost.<br><br>You may click OK and continue to work until the restart is initiated.  <span id="sd_next_message">A second message will appear 2 minutes prior to your connection restart.</span><br>
+	<input type="button" value="OK" 
+	onclick="javascript:closeServerTracker();"/>
+</span>
+<span class="session-tracker server-shutdown" id="serverDown" style="display:none">
+	<h2>MIP Server Notice</h2>
+    The MIP connection that you were assigned was restarted and your session has been terminated.  Data not saved prior to this restart was lost.<br><br>If you have questions or concerns about the connection restart please contact MIP User Care, miphelp@riskmapcds.com or 1-877-FEMA-MAP.<br>
+    <input type="button" value="OK" 
+	onclick="javascript:closeServerDown();"/>
+</span>
+
+<!-- JC: replace it with mip placebar -->
+					 	
+    <div class="globalnav">
+            <ul>
+                
+                    <li  class="first">
+                    
+                        <a href="?uri=nm:oid:Z6_LPHGHOK0O8A4D0QCCTJUNE10G6&amp;st=" >
+
+                            Home</span>
+                        </a>
+
+                        
+
+                    </li>
+
+                
+                    <li >
+                    
+                        <a href="?uri=nm:oid:Z6_LPHGHOK0O0FS90QC3D3QM530E6&amp;st=" >
+
+                            Studies Post Launch TIPs</span>
+                        </a>
+
+                        
+
+                    </li>
+
+                
+                    <li >
+                    
+                        <a href="?uri=nm:oid:Z6_LPHGHOK0O0O9E0Q431PS5A20M4&amp;st=" >
+
+                            Tools &amp; Links</span>
+                        </a>
+
+                        
+
+                    </li>
+
+                
+                    <li >
+                    
+                        <a href="?uri=nm:oid:Z6_LPHGHOK0OOCVA0QC3L9G8N2000&amp;st=" >
+
+                            MIP User Care</span>
+                        </a>
+
+                        
+
+                    </li>
+
+                
+
+            </ul>
+    </div>
+
+<!-- JC: replace it with mip pagebar and mip subpage bar-->
+				</header>
+
+		<!-- JC: replace it with mip breadcrumb -->
+		<div class="wpthemeMainContent" role="main" tabindex="-1" aria-label="IBM WebSphere Portal">
+			<div class="wpthemeInner">	
+				<!-- asa markup contributions for pages -->
+				<!-- 	
+				<a rel="dynamic-content" href="dyn-cs:id:wp_analytics_dynspot"></a>
+				-->
+				
+	<div class="wpthemeCrumbTrail wpthemeLeft">
+
+		
+	</div><div class="wpthemeClear"></div>
+				<!-- 
+				<a rel="dynamic-content" href="dyn-cs:id:mipPortal85Theme_status"></a>
+				 -->
+			</div>	
+
+			<!-- required - do not remove -->
+			<div style="display:none" id="portletState">{}</div><div id="layoutContainers" class="wpthemeLayoutContainers wpthemeLayoutContainersHidden" >	
+				<div class="wpthemeInner">					
+					
+
+
+
+
+
+
+
+
+
+<table class="layoutRow ibmDndRow component-container " cellpadding="0" cellspacing="0" role="presentation">
+	<tr>
+
+        
+            
+
+		<td valign="top" >
+            
+
+
+
+
+
+
+
+
+
+<table class="layoutColumn ibmDndColumn component-container id-Z7_JGD6HAK0PGJ9E0Q6TVUJUN10G6 layoutNode" cellpadding="0" cellspacing="0" role="presentation">
+	
+	<tr>
+		<td style="width:100%;" valign="top">
+			<div class='component-control id-Z7_JGD6HAK0PGJ9E0Q6TVUJUN1082' ><span id="Z7_JGD6HAK0PGJ9E0Q6TVUJUN1082"></span><section class="ibmPortalControl wpthemeControl wpthemeHidden a11yRegionTarget" role="region">
+
+	
+	
+
+	<div class="asa.portlet" id="asa.portlet.Z7_JGD6HAK0PGJ9E0Q6TVUJUN1082" style="display:none;">
+		<span class="asa.portlet.id">Z7_JGD6HAK0PGJ9E0Q6TVUJUN1082</span>
+
+		
+
+	</div>
+	
+<!-- start header markup -->
+	<header class="wpthemeControlHeader" role="banner" aria-label="Skin header">
+		<div class="wpthemeInner">
+			<h2>
+				<img class="dndHandle" draggable="true" ondragstart="wpModules.dnd.util.portletDragStart(event, this, this.parentNode, 30, 0);"
+				ondragend="wpModules.dnd.util.portletDragEnd(event);" 
+				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt=""/>
+				<!-- lm-dynamic-title node marks location for dynamic title support -->
+ 				<span class="lm-dynamic-title asa.portlet.title a11yRegionLabel"><span lang="en" dir="ltr">MIP Content - WMS</span></span>
+			</h2>
+			<a aria-haspopup="true" aria-label="Display content menu" role="button" href="javascript:;" class="wpthemeIcon wpthemeMenuFocus contextMenuInSkinIcon" style="display:none" tabindex="0">
+				<span title="Display content menu"><img aria-label="Display content menu" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></span>
+				<span class="wpthemeAltText">Component Action Menu</span>
+				<!-- start CAM template -->
+				<span class="wpthemeMenu" data-positioning-handler="horizontallyCenteredBelow">
+					<div class="wpthemeMenuBorder">
+						<!-- define the menu item template inside the "ul" element.  only "css-class", "description", and "title" are handled by the theme's sample javascript. -->
+						<ul class="wpthemeMenuDropDown wpthemeTemplateMenu" role="menu">
+							<li class="${css-class}" role="menuitem" tabindex="-1"><span
+								class="wpthemeMenuText">${title}</span></li>
+						</ul>
+						<div class="verticalMenuPointer pointer"></div>
+					</div> <!-- Template for loading -->
+					<div class="wpthemeMenuLoading wpthemeTemplateLoading">${loading}</div>
+					<!-- Template for submenu -->
+					<div class="wpthemeAnchorSubmenu wpthemeTemplateSubmenu">
+						<div class="wpthemeMenuBorder wpthemeMenuSubmenu">
+							<ul id="${submenu-id}" class="wpthemeMenuDropDown"
+								role="menu">
+								<li role="menuitem" tabindex="-1"></li>
+							</ul>
+						</div>
+					</div>
+				</span>
+				<!-- end CAM template -->
+			</a>
+			<a aria-haspopup="true" aria-label="Display portlet menu" role="button" href="javascript:;" class="wpthemeIcon wpthemeMenuFocus" tabindex="0"
+                onclick="if (typeof wptheme != 'undefined') wptheme.contextMenu.init({ 'node': this, menuId: 'skinAction', jsonQuery: {'navID':ibmCfg.portalConfig.currentPageOID,'windowID':wptheme.getWindowIDFromSkin(this)}, params: {'alignment':'right'}});"
+				onkeydown="javascript:if (typeof i$ != 'undefined' &amp;&amp; typeof wptheme != 'undefined') {if (event.keyCode ==13 || event.keyCode ==32 || event.keyCode==38 || event.keyCode ==40) {wptheme.contextMenu.init(this, 'skinAction', {'navID':ibmCfg.portalConfig.currentPageOID,'windowID':wptheme.getWindowIDFromSkin(this)}); return false;}}">
+				<span title="Display portlet menu"><img aria-label="Display portlet menu" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></span>
+				<span class="wpthemeAltText">Actions</span>
+			</a>
+		</div>
+	</header>
+	
+	<div class="wpthemeControlBody wpthemeOverflowAuto wpthemeClear"> <!-- lm:control dynamic spot injects markup of layout control -->
+	<!-- asa.overlay marks the node that the AsaOverlayWidget will be placed in -->
+		<div style="position:relative; z-index: 1;">
+			<div class="analytics.overlay" ></div>
+		</div>
+		<div id="staticrules">
+<div id="twocolumn">
+<div id="subnavigaiton"></div>
+<div id="maincontent">
+
+<h1>GIS Web Services for the FEMA National Flood Hazard Layer (NFHL)</h1>
+
+<hr>
+
+<h2><font color="#000000">TLS 1.2 with Cipher Suites</font></h2>
+
+<p>Due to recent changes, <a href="hazards.fema.gov">hazards.fema.gov</a> only supports TLS 1.2 with Cipher Suites. This change impacts Windows 2012 R2 and prior versions, as well any applications that do not support TLS 1.2 with Cipher Suites. For more information, contact <a href="mailto:FEMA-RiskMAP-ITHelp@fema.dhs.gov">Risk MAP IT Help</a>.</p>
+
+<p>Applications that do not support these ciphers include:</p>
+<li>IE 11 / Win 7</li>
+<li>IE 11 / Win 8.1</li>
+<li>IE 11 / Win Phone 8.1</li>
+<li>IE 11 / Win Phone 8.1 Update</li>
+<li>Safari 6/ iOS 6.0.1</li>
+<li>Safari 7 / 7.1</li>
+<li>Safari 7 / OS X 10.9</li>
+<li>Safari 8 / iOS 8.4</li>
+<li>Safari 8 / OS X 10.10</li>
+
+<h2><font color="#000000">FEMA&#146;s National Flood Hazard Layer</font></h2>
+
+<p>
+FEMA provides access to the National Flood Hazard Layer (NFHL) through web mapping services. The NFHL is a computer database that contains FEMA�s flood hazard map data. The simplest way for you to access the flood hazard data, including the NFHL, is through <a href="https://msc.fema.gov/">FEMAs Map Service Center (MSC)</a>. If you want to explore the current digital effective flood hazard data in a map, the best tool to use is the <a href="https://msc.fema.gov/nfhl">NFHL Viewer</a>. From the NFHL Viewer, you may view, download, and print flood maps for your location
+</p>
+<p>
+The data depict effective flood hazard information and supporting data used to develop the information. The primary flood hazard classification is indicated in the Flood Hazard Zones layer.  
+</p>
+
+<p>The NFHL layers include:</p>
+
+<table style="width:100%;" align="center">
+<tr>
+<td valign="top">
+
+<ul>
+<li>Flood hazard zones and labels</li> 
+<li>River Miles Markers</li>
+<li>Cross-sections and coastal transects and their labels</li>
+<li>Letter of Map Revision (LOMR) boundaries and case numbers</li>
+</ul>
+</td>
+
+<td valign="top">
+<ul>
+<li>Flood Insurance Rate Map (FIRM) boundaries, labels and effective dates</li>
+<li>Coastal Barrier Resources System (CBRS) and Otherwise Protected Area (OPA) units</li>
+<li>Community boundaries and names</li>
+<li>Levees</li>
+</ul>
+</td>
+
+<td valign="top">
+<ul>
+<li>Hydraulic and flood control structures</li>
+<li>Profile and coastal transect baselines</li>
+<li>Limit of Moderate Wave Action(LiMWA)</li>
+</ul>
+</td>
+</tr>
+</table>
+
+<p> Not all effective Flood Insurance Rate Maps (FIRM) have geographic information system (GIS) data available. To view a list of available county and single-jurisdiction flood study data in GIS format and check the status of the NFHL GIS services please visit the <a href="https://www.floodmaps.fema.gov/NFHL/status.shtml"> NFHL Status Page</a>. 
+
+<h2><font color="#000000">Preliminary &amp; Pending National Flood Hazard Layers</font></h2>
+
+<p>The Preliminary and Pending NFHL dataset represents the current pre-effective flood data for the country. These layers are updated as new preliminary and pending data becomes available, and data is removed from these layers as it becomes effective. </p>
+
+
+
+<p><strong>Preliminary &amp; Pending Data</strong></p>
+<p>Preliminary data are for review and guidance purposes only. By viewing preliminary data and maps, the user acknowledges that the information provided is preliminary and subject to change. Preliminary data are not final and are presented in this national layer as the best information available at this time. Additionally, preliminary data cannot be used to rate flood insurance policies or enforce the Federal mandatory purchase requirement. FEMA will remove preliminary data once pending data are available. The preliminary flood hazard data is available through the <a href="https://hazards.fema.gov/femaportal/prelimdownload/">preliminary FEMA Map Products page</a>. If the preliminary flood hazard data search tool is unavailable, please use the alternate site. To explore the current digital preliminary flood hazard data in a map, the best tool to use is the <a href="https://msc.fema.gov/fmcv">Flood Map Changes Viewer (FMCV)</a>. From the Flood Map Changes Viewer, you may view, download, and print flood maps for your location.</p>
+<p>Pending data are for early awareness of upcoming changes to regulatory flood map information. Until the data becomes effective, when it will appear in FEMA's National Flood Hazard Layer (NFHL), the data should not be used to rate flood insurance policies or enforce the Federal mandatory purchase requirement. FEMA will remove pending data once effective data are available.</p>
+
+<p>To better understand preliminary data please see the <a href="https://www.fema.gov/view-your-communitys-preliminary-flood-hazard-data-0">Preliminary National Flood Hazard Layer webpage</a>.</p>
+
+<p>You can view the National Flood Hazard Layer on the NFHL <a href="https://www.fema.gov/flood-maps/national-flood-hazard-layer">site</a>.</p>
+
+
+
+
+<h2><font color="#000000">FEMA GeoPlatform</font></h2>
+
+<p>
+FEMA's GIS flood map services are available through FEMAs GeoPlatform, an ArcGIS Online portal containing a variety of FEMA-related data. 
+<p>
+<p>
+To view the NFHL on the FEMA GeoPlatform go to <a href="https://hazards-fema.maps.arcgis.com/apps/webappviewer/index.html?id=8b0adb51996444d4879338b5529aa9cd">NFHL on FEMA GeoPlatform</a>.
+</p>
+<!-- <p> -->
+<!-- To view the Preliminary and Pending national layers on the FEMA Geoplatform go to <a href="https://arcg.is/PT0vX">FEMA's Preliminary &amp; Pending National Flood Hazard Layer</a>. -->
+<!-- </p> -->
+
+
+<strong>
+Technical Information
+</strong>
+</p>
+<p>
+Flood hazard and supporting data are developed using specifications for horizontal control consistent with 1:12,000&ndash;scale mapping.
+If you plan to display maps from the NFHL with other map data for official purposes, ensure that the other information meets FEMA&#146;s standards for map accuracy.
+</p>
+<p>The minimum horizontal positional accuracy for base map hydrographic and transportation features used with the NFHL is the NSSDA radial accuracy of 38 feet.  
+United States Geological Survey (USGS) imagery and map services that meet this standard can be found by visiting the Knowledge Sharing Site (KSS) 
+for <a href="https://pm.riskmapcds.com/kss/Lists/KSS_Standards2/DispForm.aspx?ID=2566">Base Map Standards (420)</a>.  Other base map standards can be found at 
+<a href="https://riskmapportal.msc.fema.gov/kss/MapChanges/default.aspx">https://riskmapportal.msc.fema.gov/kss/MapChanges/default.aspx</a>. You will need a username and password to access this information.</p>
+<p>
+The NFHL data are from FEMA&#146;s FIRM databases.
+New data are added continually. The NFHL also contains map changes to FIRM data made by LOMRs.
+</p>
+<p>
+The NFHL is stored in North American Datum of 1983, Geodetic Reference System 80 coordinate system, 
+though many of the NFHL GIS web services support the Web Mercator Sphere projection commonly used in web mapping applications.
+</p>
+
+<strong>
+Organization & Display
+</strong>
+
+<p>
+The NFHL is organized into many data layers. The layers display information at map scales appropriate 
+for the data. A layer indicating the availability of NFHL data is displayed at map scales smaller than 1:250,000, 
+regional overviews at map scales between 1:250,000 and 1:50,000, and detailed flood hazard maps at map scales of 1:50,000 and larger. 
+The "Scalehint" item in the Capabilities file for the Web Map Service encodes the scale range for a layer.
+</p>
+<p>
+In addition, there are non-NFHL datasets provided in the GIS web services, such as information about the availability of flood data and maps, the national map panel scheme, and point locations for LOMA and 
+LOMR-Fs. The LOMA are positioned less accurately than are the NFHL data.
+</p>
+<h2><font color="#000000">Layers in the public NFHL GIS services:</font></h2>
+<p><i>Use the numbers shown below when referencing layers by number.</i></p>
+<ul>
+<ul>0.	NFHL Availability</ul>
+<ul>1.	LOMRs</ul>
+<ul>2.	LOMAs</ul>
+<ul>3.	FIRM Panels</ul>
+<ul>4.	Base Index</ul>
+<ul>5.	PLSS</ul>
+<ul>6.	Toplogical Low Confidence Areas</ul>
+<ul>7.	River Mile Markers</ul>
+<ul>8.	Datum Conversion Points</ul>
+<ul>9.	Coastal Gages</ul>
+<ul>10.	Gages</ul>
+<ul>11.	Nodes</ul>
+<ul>12.	High Water Marks</ul>
+<ul>13.	Station Start Points</ul>
+<ul>14.	Cross-Sections</ul>
+<ul>15.	Coastal Transects</ul>
+<ul>16.	Base Flood Elevations</ul>
+<ul>17.	Profile Baselines</ul>
+<ul>18.	Transect Baselines</ul>
+<ul>19.	Limit of Moderate Wave Action</ul>
+<ul>20.	Water Lines</ul>
+<ul>21.	Coastal Barrier Resources System Area</ul>
+<ul>22.	Political Jurisdictions</ul>
+<ul>23.	Levees</ul>
+<ul>24.	General Structures</ul>
+<ul>25.	Primary Frontal Dunes</ul>
+<ul>26.	Hydrologic Reaches</ul>
+<ul>27.	Flood Hazard Boundaries</ul>
+<ul>28.	Flood Hazard Zones</ul>
+<ul>29.	Submittal Information</ul>
+<ul>30.	Alluvial Fans</ul>
+<ul>31.	Subbasins</ul>
+<ul>32.	Water Areas</ul>
+</ul>
+
+<h2><font color="#000000">GIS Web Services Information</font></h2>
+<p>
+For users experienced with GIS, a variety of services are offered for the public to access NFHL 
+data. The services contain predefined 
+symbology similar to the printed FIRM panels onto which the data is mapped. 
+Though the services contain all NFHL spatial layers, some are 
+only available in certain scale ranges; for instance, detailed flood maps 
+are only available when zoomed past 1:50,000 scale. 
+</p>
+
+<strong>ArcGIS REST Service</strong>
+
+<p>
+The ArcGIS REST service provides direct access to NFHL spatial information through 
+Environmental Systems Research Institute (ESRI) applications such as ArcGIS Desktop or ArcGIS Online. 
+This service supports mapping, data, and query requests. 
+</p>
+
+<p>To access the public NFHL service directly through a web map viewer such as ArcGIS Online, you can use the service-specific URL. Copy & Paste the following URL into your web map viewer:</p>
+
+<p><strong>NFHL (effective data only)</strong>:<br/>
+https://hazards.fema.gov/gis/nfhl/rest/services/public/NFHL/MapServer</p>
+
+<p><strong>Preliminary Chances Since Last FIRM (CSLF) GIS Service:</strong>:<br/>
+https://hazards.fema.gov/gis/nfhl/rest/services/CSLF/Prelim_CSLF/MapServer</p>
+
+<p><strong>Draft CSLF GIS Service:</strong>:<br/>
+https://hazards.fema.gov/gis/nfhl/rest/services/CSLF/Draft_CSLF/MapServer</p>
+
+<p><strong>Preliminary National Flood Hazard Layer</strong>:<br/>
+https://hazards.fema.gov/gis/nfhl/rest/services/PrelimPending/Prelim_NFHL/MapServer</p>
+
+<p><strong>Pending NFHL</strong>:<br/>
+https://hazards.fema.gov/gis/nfhl/rest/services/PrelimPending/Pending_NFHL/MapServer</p>
+
+<p><strong>Draft National Flood Hazard Layer:</strong>:<br/>
+https://hazards.fema.gov/gis/nfhl/rest/services/AFHI/Draft_FIRM_DB/MapServer</p>
+
+
+<p>To access the service through a client like ArcGIS Desktop, you can use the service directory URL:</p>
+
+<p>https://hazards.fema.gov/gis/nfhl/rest/services</p>
+
+<p>Then navigate to the desired service.</p>
+
+<strong>OGC Web Mapping Service (WMS)</strong>
+
+<p>Use the following URL in your GIS Application:</p>
+
+<p>https://hazards.fema.gov/gis/nfhl/rest/services/public/NFHLWMS/MapServer/WMSServer</p>
+
+The WMS Capabilities file is available here: 
+<p>https://hazards.fema.gov/gis/nfhl/services/public/NFHLWMS/MapServer/WMSServer?request=GetCapabilities&service=WMS</p>
+
+<p>
+The NFHL Web Mapping Service provides an OGC-compliant 
+protocol for obtaining map images and querying feature information. 
+This service can be consumed by a number of free and commercial GIS clients.
+</p>
+
+
+<strong>OGC Web Feature Service (WFS)</strong>
+
+<p>Use the following URL in your GIS Application:</p>
+
+<p>https://hazards.fema.gov/gis/nfhl/services/public/NFHL/MapServer/WFSServer</p>
+
+<p>
+The NFHL Web Feature Service provides an OGC-compliant protocol for direct download of 
+GIS data from the NFHL. This service can be consumed by a number of free and commercial GIS clients. 
+Requests are currently limits to 1000 features, so it is recommended that users focus on a very limited area 
+of interest when requesting data through WFS. If a larger amount of data is needed,
+it is recommended that users download the NFHL data by state or county from the  
+<a href="https://msc.fema.gov/portal/advanceSearch">MSC</a>.  
+</p>
+
+<p>Due to limitations on the number of features that can be requested, it is recommended that users supply bounding box coordinates when constructing WFS requests. 
+Here is <a href="https://hazards.fema.gov/gis/nfhl/rest/services/public/NFHL/MapServer/WFSServer?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=public_NFHL%3AFlood_Hazard_Zones&BBOX=40.779527%2C-72.788755%2C40.789527%2C-72.778755%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A6.9%3A4269&MAXFEATURES=1000">
+an example of a WFS GetFeature request for the Flood Hazard Zone layer</a>.
+</p>
+<p>For more information on constructing WFS requests, see <a href="https://resources.arcgis.com/en/help/main/10.1/index.html#//0154000004rz000000">the topic on the ESRI help site</a>.</p>
+<p><b><i>
+If you have any questions or concerns please contact Risk MAP IT Help (<a href="mailto:FEMA-RiskMAP-ITHelp@fema.dhs.gov">Risk MAP IT Help</a> ) or the FEMA Mapping and Insurance eXchange (FMIX) at 1-877-FEMA-MAP
+</p></b></i>
+
+
+
+
+
+</div><!-- end maincontent -->
+</div><!-- end twocolumn -->
+</div><!-- end staticrules-->
+<div class="wpthemeClear"></div>
+	</div>
+</section></div>
+		</td>
+	</tr>
+	 
+</table>
+		</td>
+
+        
+        
+	</tr>
+</table><div class="wpthemeClear"></div>
+				</div>
+			</div>
+
+		</div><!--end main content-->
+
+		<!-- JC: mip page endinclude -->
+		
+
+
+
+
+
+
+
+
+<div id="footer">
+		 <p class="note">
+		 	
+			Last Updated: Friday, 13-January-2023 4:11 PM ET
+		 </p>
+		<ul>
+			<li><a href="https://www.dhs.gov/"><abbr title="Department of Homeland Security">DHS</abbr>.gov</a></li>
+			<li><a href="https://fema.gov/"><abbr title="Federal Emergency Management Agency">FEMA</abbr>.gov</a></li>
+			<li><a href="https://www.fema.gov/privacy-comment-policy">Privacy Policy</a></li>
+			<li><a href="/femaportal/wps/portal/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zivdxdzDwcvQ0C3L0sXQ0CzULCQr1C_QwN3E30w8EKfAI83D38vQ38LQJNjQwCnX0sPf2CLA0NTMz1o0jSb-APUmBibBgQbOoINMmYOP0GOICjAXH68SiIwm98uH4UWAm-EEBVgMWLhCwpyA0NDY0wyPR0VFQEAGWBPHc!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2X0xQSEdIT0swTzBGUzkwUUMzRDNRTTUzMDY3/">Terms of Use</a></li>
+            <li><a href="https://www.fema.gov/accessibility">Accessibility</a></li>
+			<li><a href="https://www.fema.gov/website-resources">Site Help</a></li>
+			<li><a href="/femaportal/wps/portal/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zivdxdzDwcvQ0C3L0sXQ0CzULCQr1C_QwN3E30w8EKfAI83D38vQ38LQJNjQwCnX0sPf2CLA0NTMz1o0jSb-APUmBibBgQbOoINMmYOP0GOICjAXH68SiIwm98uH4UWAm-EEBVgMWLhCwpyA0NDY0wyPR0VFQEAGWBPHc!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2X0lJQzYxMjgwUDhUTEIwUUlTU1RLM0MzMDAx/">Site Map</a></li>
+			<li class="last"><a href="https://www.fema.gov/contact-us">Contact Us</a></li>
+		</ul>
+		<p><abbr title="Federal Emergency Management Agency">FEMA</abbr> 500 C Street, SW Washington, D.C. 20472 Phone: (202) 566-1600</p>
+
+	</div>	
+<!-- end frame -->
+	
+	<!-- This is responsible for bootstrapping the configuration for the javascript framework. 
+        This is located here instead of the head section to improve client performance. -->
+	<div class="wpthemeComplementaryContent" id="wpthemeComplementaryContent" role="region" tabindex="-1" aria-labelledby="wpthemeComplementaryContentText">
+		<span class="wpthemeAltText" id="wpthemeComplementaryContentText" >Complementary Content</span>
+		<script type="text/javascript" src="/femaportal/wps/contenthandler/!ut/p/digest!1ZE9Umy1eVNSvwoh7BCY5w/mashup/ra:collection?themeID=ZJ_LPHGHOK0O0KV80QKQLJ6KR10K7&amp;locale=en&amp;mime-type=text%2Fjavascript&amp;lm=1671336081314&amp;entry=wp_portal__0.0%3Aconfig_config_static&amp;entry=wcm_config__0.0%3Aconfig_config_static&amp;entry=wcm_inplaceEdit__0.0%3Aconfig_config_static"></script><script type="text/javascript">i$.merge({"ibmCfg":{"themeConfig":{"themeUniqueName":"mipPortal85Theme","themeRootURI":"/wps/contenthandler/!ut/p/digest!AVpjyN-eMXoHdj8JKNHpMA/war/mipPortal85ThemeStatic/themes/mipPortal85Theme","themeWebAppBaseURI":"/mipPortal85Theme/themes/html/dynamicSpots","themeWebDAVBaseURI":"war:mipPortal85ThemeStatic/themes/mipPortal85Theme/","modulesWebAppBaseURI":"/wps/themeModules","commonResourcesRootURI":"/wps/contenthandler/!ut/p/digest!1ZE9Umy1eVNSvwoh7BCY5w/dav/fs-type1/common-resources","isRTL":false,"isPageRenderModeCSA":false,"portletOverridePageTitle":"NOPAGETAB_NFHLWMS","currentContentNodeOID":"Z6_JGD6HAK0PGJ9E0Q6TVUJUN10G4","loadingImage":"css/images/loading.gif","dndSourceDefinitions":[],"categorySources":["system/WebContentCategory.json,label:shelf_socialCategory"],"styleSources":[],"layoutSources":[]},"portalConfig":{"locale":"en","portalURI":"/wps/portal","contentHandlerURI":"/wps/contenthandler/!ut/p/digest!AQOTNFWQ3HHwaDYpeDatBQ/","pocURI":"/wps/portal/!ut/p/z0/0wcA1NLTeQ!!/","isVirtualPortal":false,"canImpersonate":false,"themeRootURI":"/mipPortal85Theme/themes/html/dynamicSpots","parentPageID":"Z6_LPHGHOK0O8Q520QCL9INR91047","currentPageOID":"Z6_JGD6HAK0PGJ9E0Q6TVUJUN10G4","canAnonymousUserViewCurrentPage":true,"bootstrapState":"&lt;?xml version=&#034;1.0&#034; encoding=&#034;UTF-8&#034;?&gt;&lt;root xmlns=&#034;http://www.ibm.com/xmlns/prod/websphere/portal/v6.1/portal-state&#034;&gt;&lt;state type=&#034;navigational&#034;&gt;&lt;selection selection-node=&#034;Z6_JGD6HAK0PGJ9E0Q6TVUJUN10G4&#034;&gt;&lt;mapping src=&#034;Z6_LPHGHOK0O8Q520QCL9INR91047&#034; dst=&#034;Z6_JGD6HAK0PGJ9E0Q6TVUJUN10G4&#034;/&gt;&lt;mapping src=&#034;Z6_LPHGHOK0O0O9E0Q431PS5A20Q3&#034; dst=&#034;Z6_JGD6HAK0PGJ9E0Q6TVUJUN10G4&#034;/&gt;&lt;mapping src=&#034;Z6_000000000000000000000000A0&#034; dst=&#034;Z6_JGD6HAK0PGJ9E0Q6TVUJUN10G4&#034;/&gt;&lt;mapping src=&#034;Z6_JGD6HAK0PGJ9E0Q6TVUJUN10G4&#034; dst=&#034;Z6_000000000000000000000000A0&#034;/&gt;&lt;/selection&gt;&lt;expansions&gt;&lt;node id=&#034;Z6_LPHGHOK0O8Q520QCL9INR91047&#034;/&gt;&lt;node id=&#034;Z6_LPHGHOK0O0O9E0Q431PS5A20Q3&#034;/&gt;&lt;node id=&#034;Z6_000000000000000000000000A0&#034;/&gt;&lt;/expansions&gt;&lt;/state&gt;&lt;/root&gt;","isUserLoggedIn":false,"currentUser":"anonymous portal user","currentUserOID":"","aggregatedStyle":null,"isCurrentPageEditable":true,"wcmPageMetadata":{"contentRoot":null,"sharingScope":null},"projectUUID":null},"userName":""},"com_ibm_theme_capabilities":{"wp_dialog_draggable":"0.0","getting_started_module":"0.0","wp_hiddenpages":"0.0","wp_simple_contextmenu_ext":"0.0","wp_simple_contextmenu_js":"0.0","wp_toolbar_sitepreview_menuactions":"0.0","wp_portlet_css":"0.0","wp_theme_utils":"0.0","wp_toolbar_menuactions":"0.0","wp_toolbar_host_view":"0.0","wp_hiddencontent":"0.0","wp_theme_skin_region":"0.0","wp_portal":"0.0","photon.dom":"1.0","wp_photon_dom":"0.0","wp_toolbar_sitepreview":"0.0","highContrast":"1.0","wp_status_bar":"0.0","wp_client_tracing":"0.0","modules":"0.1","wp_state_page_modes":"0.0","wp_toolbar_common_actionbar":"0.0","wp_client_main":"0.0","wp_toolbar_viewframe_validator":"0.0","wp_high_contrast":"0.0","wp_toolbar_actionbar":"0.0","simple-contextmenu":"1.1","wp_dialog_css":"0.0","wp_theme_menus":"0.0","wp_client_logging":"0.0","wp_state_page":"0.0","wp_toolbar_common":"0.0","wp_theme_portal_edit_85":"0.0","wp_toolbar_projectmenu":"0.0","wp_dialog_main":"0.0","wp_ic4_wai_resources":"0.0","wp_simple_contextmenu_main":"0.0","wp_layout_windowstates":"0.0","mip_dynamicContentSpots_85":"0.0","wp_toolbar_moremenu":"0.0","wp_custom_page_style":"0.0","wp_toolbar_contextmenu":"0.0","wp_searchbar":"0.0","wp_client_ext":"0.0","wp_simple_contextmenu_css":"0.0","wp_toolbar85":"0.0","wp_modules":"0.0","wp_analytics_aggregator":"0.0","toolbar":"8.5","wp_dialog_util":"0.0","wp_oob_sample_styles":"0.0","wp_toolbar_utils":"0.0","a11y":"1.0","wp_a11y":"0.0","analytics_aggregator":"8.0","wp_theme_portal_85":"0.0","wp_simple_contextmenu_templates":"0.0","wp_toolbar_logo":"0.0"},"com_ibm_device_class":[]});ibmCfg.portalConfig.bootstrapState=(ibmCfg.portalConfig.bootstrapState||"").replace(/&lt;/gm, '<').replace(/&gt;/gm, '>').replace(/&amp;/gm, '&').replace(/&#039;/gm, "'").replace(/&#034;/gm, '"');i$.merge({"ibmCfg":{"portalConfig":{"asaConfig":{"canViewAsaReports":"false","canViewAsaSitePromotions":"false","canCreateAsaSitePromotions":"false","canDeleteAsaSitePromotions":"false","reportConfig":{"scopes":[]}}}}});i$.merge({"ibmCfg":{"portalConfig":{"isShowHiddenPages":false}}});</script><script type="text/javascript" src="/femaportal/wps/contenthandler/!ut/p/digest!AVpjyN-eMXoHdj8JKNHpMA/mashup/ra:collection?themeID=ZJ_LPHGHOK0O0KV80QKQLJ6KR10K7&amp;locale=en&amp;mime-type=text%2Fjavascript&amp;lm=1554148060000&amp;entry=wp_dialog_main__0.0%3Aconfig_js&amp;entry=wp_high_contrast__0.0%3Aconfig_js&amp;entry=wp_state_page_modes__0.0%3Aconfig_js&amp;entry=wp_toolbar_utils__0.0%3Aconfig_js&amp;entry=wp_simple_contextmenu_ext__0.0%3Aconfig_js&amp;entry=wp_simple_contextmenu_js__0.0%3Aconfig_js&amp;entry=wp_toolbar_actionbar__0.0%3Aconfig_js&amp;entry=wp_toolbar_menuactions__0.0%3Aconfig_js&amp;entry=wp_toolbar_sitepreview_menuactions__0.0%3Aconfig_js&amp;entry=wp_ic4_wai_resources__0.0%3Aconfig_js&amp;entry=wp_theme_skin_region__0.0%3Aconfig_js&amp;entry=wp_status_bar__0.0%3Aconfig_js&amp;entry=wp_toolbar_projectmenu__0.0%3Aconfig_js&amp;entry=wp_toolbar_contextmenu__0.0%3Aconfig_js&amp;entry=wp_toolbar_sitepreview__0.0%3Aconfig_js"></script><a rel="alternate" id="config_js_deferred" href="/femaportal/wps/contenthandler/!ut/p/digest!AVpjyN-eMXoHdj8JKNHpMA/mashup/ra:collection?themeID=ZJ_LPHGHOK0O0KV80QKQLJ6KR10K7&amp;locale=en&amp;mime-type=text%2Fjavascript&amp;lm=1671336082000&amp;entry=wp_liveobject_framework_core__0.0%3Aconfig_js&amp;entry=wp_portal_ui_utils__0.0%3Aconfig_js&amp;entry=wp_contextmenu_js__0.0%3Aconfig_js&amp;entry=wp_skin_cam__0.0%3Aconfig_js&amp;entry=wp_contextmenu_config_lof__0.0%3Aconfig_js&amp;entry=wp_federated_documents_picker__0.0%3Aconfig_js&amp;entry=wp_dnd_main__0.0%3Aconfig_js&amp;entry=wp_movecontrols__0.0%3Aconfig_js&amp;entry=wp_toolbar_controlactions__0.0%3Aconfig_js&amp;entry=wp_content_targeting_cam__0.0%3Aconfig_js&amp;entry=wp_analytics_tags__0.0%3Aconfig_js&amp;deferred=true" style="display:none"></a><span id="simpleMenuTemplate" class="wpthemeMenuLeft">
+    <div class="wpthemeMenuBorder">
+        <div class="wpthemeMenuNotchBorder"></div>
+        <!-- define the menu item template inside the "ul" element.  only "css-class", "description", and "title" are handled by the theme's sample javascript. -->
+        <ul class="wpthemeMenuDropDown wpthemeTemplateMenu" role="menu">
+            <li class="${css-class}" role="menuitem" tabindex="-1"><span class="wpthemeMenuText">${title}</span>${badge}</li>
+        </ul>
+    </div>
+    <!-- Template for loading -->
+    <div class="wpthemeMenuLoading wpthemeMenuLoadingText wpthemeTemplateLoading">${loading}</div>
+    <!-- Template for submenu -->
+    <div class="wpthemeAnchorSubmenu wpthemeTemplateSubmenu">
+        <div class="wpthemeMenuBorder wpthemeMenuSubmenu">
+            <ul id="${submenu-id}" class="wpthemeMenuDropDown" role="menu"><li role="menuitem" tabindex="-1"></li></ul>
+        </div>
+    </div>
+</span><a rel="alternate" id="config_markup_deferred" href="/femaportal/wps/contenthandler/!ut/p/digest!rIZyOjvFenyxUdDRYj-UjA/mashup/ra:collection?themeID=ZJ_LPHGHOK0O0KV80QKQLJ6KR10K7&amp;locale=en&amp;mime-type=text%2Fplain&amp;entry=wp_contextmenu_templates__0.0%3Aconfig_markup&amp;entry=wp_skin_cam__0.0%3Aconfig_markup&amp;entry=wp_dnd_main__0.0%3Aconfig_markup&amp;deferred=true" style="display:none"></a></div>
+		
+</div></div>
+</body>
+</html>

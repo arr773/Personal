@@ -1,0 +1,74 @@
+Name,Data Types,Default Task,Attribute Types,# Instances,# Attributes,Year
+  Haberman's Survival,Multivariate ,Classification ,Integer ,306 ,3 ,1999 
+  Anonymous Microsoft Web Data,  Recommender-Systems ,Categorical ,37711 ,294 ,1998 
+  Arrhythmia,Multivariate ,Classification ,"Categorical, Integer, Real ",452 ,279 ,1998 
+  Covertype,Multivariate ,Classification ,"Categorical, Integer ",581012 ,54 ,1998 
+  Dermatology,Multivariate ,Classification ,"Categorical, Integer ",366 ,33 ,1998 
+  Internet Advertisements,Multivariate ,Classification ,"Categorical, Integer, Real ",3279 ,1558 ,1998 
+  Car Evaluation,Multivariate ,Classification ,Categorical ,1728 ,6 ,1997 
+  Contraceptive Method Choice,Multivariate ,Classification ,"Categorical, Integer ",1473 ,9 ,1997 
+  Adult,Multivariate ,Classification ,"Categorical, Integer ",48842 ,14 ,1996 
+  Census Income,Multivariate ,Classification ,"Categorical, Integer ",48842 ,14 ,1996 
+  Ecoli,Multivariate ,Classification ,Real ,336 ,8 ,1996 
+  Meta-data,Multivariate ,Classification ,"Categorical, Integer, Real ",528 ,22 ,1996 
+  Abalone,Multivariate ,Classification ,"Categorical, Integer, Real ",4177 ,8 ,1995 
+  Breast Cancer Wisconsin (Prognostic),Multivariate ,"Classification, Regression ",Real ,198 ,34 ,1995 
+  Breast Cancer Wisconsin (Diagnostic),Multivariate ,Classification ,Real ,569 ,32 ,1995 
+  Connect-4,"Multivariate, Spatial ",Classification ,Categorical ,67557 ,42 ,1995 
+  Cylinder Bands,Multivariate ,Classification ,"Categorical, Integer, Real ",512 ,39 ,1995 
+  Badges,"Univariate, Text ",Classification ,  294 ,1 ,1994 
+  Balance Scale,Multivariate ,Classification ,Categorical ,625 ,4 ,1994 
+  Chess (King-Rook vs. King),Multivariate ,Classification ,"Categorical, Integer ",28056 ,6 ,1994 
+  ISOLET,Multivariate ,Classification ,Real ,7797 ,617 ,1994 
+  Musk (Version 1),Multivariate ,Classification ,Integer ,476 ,168 ,1994 
+  Auto MPG,Multivariate ,Regression ,"Categorical, Real ",398 ,8 ,1993 
+  Artificial Characters,Multivariate ,Classification ,"Categorical, Integer, Real ",6000 ,7 ,1992 
+  Audiology (Standardized),Multivariate ,Classification ,Categorical ,226 ,69 ,1992 
+  Breast Cancer Wisconsin (Original),Multivariate ,Classification ,Integer ,699 ,10 ,1992 
+  Lung Cancer,Multivariate ,Classification ,Integer ,32 ,56 ,1992 
+  Molecular Biology (Splice-junction Gene Sequences),"Sequential, Domain-Theory ",Classification ,Categorical ,3190 ,61 ,1992 
+  MONK's Problems,Multivariate ,Classification ,Categorical ,432 ,7 ,1992 
+  Letter Recognition,Multivariate ,Classification ,Integer ,20000 ,16 ,1991 
+  Pittsburgh Bridges,Multivariate ,Classification ,"Categorical, Integer ",108 ,13 ,1990 
+  Flags,Multivariate ,Classification ,"Categorical, Integer ",194 ,30 ,1990 
+  Image Segmentation,Multivariate ,Classification ,Real ,2310 ,19 ,1990 
+  Kinship,Relational ,Relational-Learning ,Categorical ,104 ,12 ,1990 
+  Lenses,Multivariate ,Classification ,Categorical ,24 ,4 ,1990 
+  Liver Disorders,Multivariate ,"  Categorical, Integer, Real ",345 ,7 ,1990 
+  Mechanical Analysis,Multivariate ,Classification ,"Categorical, Integer, Real ",209 ,8 ,1990 
+  Molecular Biology (Promoter Gene Sequences),"Sequential, Domain-Theory ",Classification ,Categorical ,106 ,58 ,1990 
+  Chess (King-Rook vs. King-Pawn),Multivariate ,Classification ,Categorical ,3196 ,36 ,1989 
+  Echocardiogram,Multivariate ,Classification ,"Categorical, Integer, Real ",132 ,12 ,1989 
+  Hayes-Roth,Multivariate ,Classification ,Categorical ,160 ,5 ,1989 
+  Horse Colic,Multivariate ,Classification ,"Categorical, Integer, Real ",368 ,27 ,1989 
+  Ionosphere,Multivariate ,Classification ,"Integer, Real ",351 ,34 ,1989 
+  Breast Cancer,Multivariate ,Classification ,Categorical ,286 ,9 ,1988 
+  Chess (King-Rook vs. King-Knight),"Multivariate, Data-Generator ",Classification ,"Categorical, Integer ",  22 ,1988 
+  Heart Disease,Multivariate ,Classification ,"Categorical, Integer, Real ",303 ,75 ,1988 
+  Hepatitis,Multivariate ,Classification ,"Categorical, Integer, Real ",155 ,19 ,1988 
+  Iris,Multivariate ,Classification ,Real ,150 ,4 ,1988 
+  Labor Relations,Multivariate ,"  Categorical, Integer, Real ",57 ,16 ,1988 
+  LED Display Domain,"Multivariate, Data-Generator ",Classification ,Categorical ,  7 ,1988 
+  Lymphography,Multivariate ,Classification ,Categorical ,148 ,18 ,1988 
+  Automobile,Multivariate ,Regression ,"Categorical, Integer, Real ",205 ,26 ,1987 
+  Computer Hardware,Multivariate ,Regression ,Integer ,209 ,9 ,1987 
+  Glass Identification,Multivariate ,Classification ,Real ,214 ,10 ,1987 
+  Mushroom,Multivariate ,Classification ,Categorical ,8124 ,22 ,1987 
+  Moral Reasoner,Domain-Theory ,    202 ,  1994 
+  Japanese Credit Screening,"Multivariate, Domain-Theory ",Classification ,"Categorical, Real, Integer ",125 ,  1992 
+  Function Finding,  Function-Learning ,Real ,352 ,  1990 
+  Audiology (Original),Multivariate ,Classification ,Categorical ,226 ,  1987 
+  Mobile Robots,Domain-Theory ,"  Categorical, Integer, Real ",    1995 
+  Document Understanding,          1994 
+  EBL Domain Theories,           
+  Chess (Domain Theories),Domain-Theory ,         
+  Logic Theorist,Domain-Theory ,         
+  DGP2 - The Second Data Generation Program,Data-Generator ,  Real ,     
+  ICU,"Multivariate, Time-Series ",  Real ,     
+  Molecular Biology (Protein Secondary Structure),Sequential ,Classification ,Categorical ,128 ,   
+  Annealing,Multivariate ,Classification ,"Categorical, Integer, Real ",798 ,38 , 
+  Balloons,Multivariate ,Classification ,Categorical ,16 ,4 , 
+  Bach Chorales,"Univariate, Time-Series ","  Categorical, Integer ",100 ,6 , 
+  Credit Approval,Multivariate ,Classification ,"Categorical, Integer, Real ",690 ,15 , 
+  Diabetes,"Multivariate, Time-Series ","  Categorical, Integer ",  20 , 
+  Multiple Features,Multivariate ,Classification ,"Integer, Real ",2000 ,649 , 
