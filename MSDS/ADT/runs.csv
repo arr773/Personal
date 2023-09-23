@@ -1,0 +1,34 @@
+duration_mins,week,month,year,park_name,city_name,distance_km,route_name
+24.5,3,May,2019,Prospect Park,Brooklyn,5,Simple Loop
+61,3,May,2019,Central Park,New York City,8,Resevoir Loop
+24.5,3,May,2019,Central Park,New York City,5,Lake Loop
+24.5,4,May,2019,Central Park,New York City,5,Lake Loop
+48,4,May,2019,Prospect Park,Brooklyn,10,Grove Run
+23,4,May,2019,Prospect Park,Brooklyn,5,Simple Loop
+24.5,1,June,2019,Central Park,New York City,5,Lake Loop
+54.96,1,June,2019,Pennypack Park,Philadelphia,12,Penny Trail Extended
+38.4,1,June,2019,Central Park,New York City,8,Resevoir Loop
+23.75,1,June,2019,Central Park,New York City,5,Lake Loop
+57.6,2,June,2019,Pennypack Park,Philadelphia,12,Penny Trail Extended
+31.8,2,June,2019,Pennypack Park,Philadelphia,6,Penny Trail
+49,2,June,2019,Liberty State Park,Jersey City,10,Water Front Run
+23.35,2,June,2019,Prospect Park,Brooklyn,5,Simple Loop
+39.2,3,June,2019,Central Park,New York City,8,Resevoir Loop
+27.48,3,June,2019,Pennypack Park,Philadelphia,6,Penny Trail
+28.8,3,June,2019,Pennypack Park,Philadelphia,6,Penny Trail
+47.5,3,June,2019,Liberty State Park,Jersey City,10,Water Front Run
+24,4,June,2019,Central Park,New York City,5,Lake Loop
+53,4,June,2019,Prospect Park,Brooklyn,10,Grove Run
+24.5,4,June,2019,Prospect Park,Brooklyn,5,Simple Loop
+37.36,4,June,2019,Central Park,New York City,8,Resevoir Loop
+28.8,1,July,2019,Pennypack Park,Philadelphia,6,Penny Trail
+23,1,July,2019,Prospect Park,Brooklyn,5,Simple Loop
+49,1,July,2019,Liberty State Park,Jersey City,10,Water Front Run
+45.8,1,July,2019,Liberty State Park,Jersey City,10,Water Front Run
+24,2,July,2019,Prospect Park,Brooklyn,5,Simple Loop
+47.5,2,July,2019,Prospect Park,Brooklyn,10,Grove Run
+24,2,July,2019,Central Park,New York City,5,Lake Loop
+53,2,July,2019,Liberty State Park,Jersey City,10,Water Front Run
+24.5,3,July,2019,Central Park,New York City,5,Lake Loop
+37.36,3,July,2019,Central Park,New York City,8,Resevoir Loop
+24.5,3,July,2019,Prospect Park,Brooklyn,5,Simple Loop
